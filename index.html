@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="score">
+    <div class="title">
+      <h1>ROCK</h1>
+      <h1>PAPER</h1>
+      <h1>SCISSORS</h1>
+    </div>
+    <div class="score-board">
+      <div class="score-title"><h2>SCORE</h2></div>
+      <div id="score">00</div>
+    </div>
+  </div>
+  <div id="game">
+    <div class="game-box">
+     <div class="top-corner">
+      <div id="paper" class="game-element">
+        <img src="./images/icon-paper.svg" alt="">
+      </div>
+      <div id="scissor" class="game-element" >
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+     </div>
+      <div class="bottom-corner">
+        <div id="rock" class="game-element" >
+          <img src="./images/icon-rock.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="chosen">
+    <div class="choices">
+      <div id="user-choice">
+        <div class="tit"><h2>YOU PICKED</h2></div>
+        <div id="uc" class="rock">
+       
+        </div>
+      </div>
+      <div id="bot-choice">
+        <div class="tit"><h2>BOT PICKED</h2></div>
+        <div id="bc" class="rock">
+          
+        </div>
+      </div>
+
+    </div>
+ 
+  <div id="result">
+    <div id="status"><h1><span id="status_res">YOU WIN</span></h1></div>
+    <div class="play-again-btn"><button id="play">PLAY AGAIN</button></div>
+  </div>
+  
+  </div>
+</div>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
